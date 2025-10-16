@@ -32,25 +32,38 @@ search("peace")
 ```
 
 US-only results
-```search("peace", country="us")```
+```
+search("peace", country="us")
+```
 
 Filter by date range
-```search(query="peace", start="01-01", end="01-10")```
+```
+search(query="peace", start="01-01", end="01-10")
+```
 
 Filter by month
-```search(query="food", month="10")```
+```
+search(query="food", month="10")
+```
 
 Fuzzy match (partial similarity)
-```search("pea", fuzz_threshold=60)```
+```
+search("pea", fuzz_threshold=60)
+```
 
 Search birthdays only (exact match)
-```search("Billy Joel", return_types=["birthdays"], exact=True)```
+```
+search("Billy Joel", return_types=["birthdays"], exact=True)
+```
 
 Limit results
-```search("health", flat=True, limit=10)```
+```
+search("health", flat=True, limit=10)
+```
 
 Flat results (great for APIs or exports)
-```flat_results = search("health", country="us", flat=True)
+```
+flat_results = search("health", country="us", flat=True)
 for item in flat_results:
     print(f"{item['date']} | {item['country']} | {item['type']} | {item['text']}")
 ```
@@ -230,5 +243,6 @@ Daily “This Day in History” Telegram or Discord bot
 Custom Home Assistant or calendar integration
 
 ## 📜 License
+
 
 MIT © 2025 Data Druid 42
