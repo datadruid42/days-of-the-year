@@ -1,0 +1,24 @@
+[project]
+name = "days-of-the-year"
+version = "0.2.0"
+description = "Searchable dataset of days, holidays, and observances worldwide, with fuzzy search support."
+authors = [{ name = "Data Druid 42" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["holidays", "calendar", "observances", "fuzzy search", "dataset"]
+
+dependencies = [
+    "rapidfuzz>=3.9.0"
+]
+
+[tool.setuptools.package-data]
+"days_of_the_year" = ["data/*.json"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/datadruid42/days-of-the-year"
+Repository = "https://github.com/datadruid42/days-of-the-year"
