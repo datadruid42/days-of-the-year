@@ -5,10 +5,12 @@ A lightweight, searchable Python dataset of **holidays**, **awareness days**, an
 ---
 
 ## 📦 Installation
-
+If this ever ends up on PyPi:
 ```bash
 pip install days-of-the-year
 ```
+
+For now, clone and save.
 
 ## 🚀 Quick Start
 ```python
@@ -239,4 +241,5 @@ Custom Home Assistant or calendar integration
 
 ## 📜 License
 MIT
+
 
