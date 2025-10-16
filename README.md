@@ -227,11 +227,6 @@ Python 3.8+
 rapidfuzz
  ≥ 3.9.0
 
-## 🧑‍💻 Author
-
-Data Druid 42
-MIT License
-
 ## ⭐ Contributing
 
 Pull requests welcome! New countries are always welcome
@@ -243,6 +238,5 @@ Daily “This Day in History” Telegram or Discord bot
 Custom Home Assistant or calendar integration
 
 ## 📜 License
+MIT
 
-
-MIT © 2025 Data Druid 42
